@@ -1,3 +1,5 @@
+import java.security.Principal
+
 //const val PI = 3.1415
 fun main() {
 //    println("Hello wolrd!")
@@ -98,8 +100,46 @@ fun main() {
     //vak a: Sting = "false //было
     //val a: Int = 7 //стало
     // Задание 3
-    val pi: Double = 3.14
-    val radius: Int = 5
-    println({ pi * radius * radius })
+//    val pi: Double = 3.14
+//    val radius: Int = 5
+//    println("${ pi * radius * radius }")
+    // Задание 4
+//    println("Введите ваше имя и ваш год рождения")
+//    println("${readln()}, вам ${2025 - readln().toInt()} лет.")
+
+    // задание 5
+//    val a = readln().toInt()
+//    val b = readln().toInt()
+//    println("${a} + ${b} = ${a+b}")
+//    println("${a} - ${b} = ${a-b}")
+//    println("${a} / ${b} = ${a/b}")
+//    println("${a} * ${b} = ${a*b}")
+
+    // задание 6
+//    val a = readln()
+//    val a1 = a[0].toString().toInt()
+//    val a2 = a[1].toString().toInt()
+//    val a3 = a[2].toString().toInt()
+//    println("${a1 + a2 + a3}")
+
+    // задание 7
+//    val sep = readln()
+//    val str1 = readln()
+//    val str2= readln()
+//    val str3 = readln()
+//    println("${str1}${sep}${str2}${sep}${str3}")
+
+    // задание 8
+//    val a = readln()
+//    println("${a}")
+//    println("${a+1}")
+//    println("${a+2}")
+
+    // задание 9
+//    val a = readln()
+//    println("${a[2]}${a[1]}${a[0]}")
+
+    // задание 10
+//    println("${readln().toInt()%1000/100}")
 }
 
